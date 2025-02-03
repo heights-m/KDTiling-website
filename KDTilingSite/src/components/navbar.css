@@ -12,7 +12,8 @@ nav button:active {
     box-shadow: none !important;
 }
 
-@media (max-width: 768px) { 
+/* small screen */
+@media (max-width: 575px) { 
 
     #navmenu_btn_self {
         border-radius: 0;
@@ -29,5 +30,16 @@ nav button:active {
     .nav-item {
         margin-bottom: 25px;
         margin-top: 5px;
+    }
+}
+
+/* largescreen */
+@media (min-width: 575px) {
+    .navitems {
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0 2vw;
     }
 }

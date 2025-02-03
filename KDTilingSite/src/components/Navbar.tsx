@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-sm mb-4 p-0">
-        <div className="navbody container-fluid align-items-center">
+        <div className="navbody container-fluid align-items-center justify-content-center">
             <Link to='/'>
                 <img src="/src/assets/home.svg" alt="Homepage button" className="ms-3"/>
             </Link>
@@ -19,7 +19,7 @@ function Navbar() {
             >
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="offcanvas offcanvas-end" tabIndex={-1} id="navbarContent" aria-labelledby='navbarContentLabel'>
+            <div className="offcanvas offcanvas-end navitems" tabIndex={-1} id="navbarContent" aria-labelledby='navbarContentLabel'>
                 <button
                     className="navbar-toggler w-100 mb-4"
                     id='navmenu_btn_self'
