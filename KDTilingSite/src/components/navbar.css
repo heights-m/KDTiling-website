@@ -1,0 +1,11 @@
+.navbody {
+    height: 15vw;
+    background-color: aqua;
+    max-height: 170px;
+    min-height: 120px;
+    width: 100%;
+}
+
+#navbarSupportedContent {
+    width: fit-content;
+}
