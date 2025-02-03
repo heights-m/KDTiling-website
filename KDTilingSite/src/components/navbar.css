@@ -6,6 +6,22 @@
     width: 100%;
 }
 
-#navbarSupportedContent {
-    width: fit-content;
+@media (max-width: 768px) { 
+
+    #navmenu_btn_self {
+        border-radius: 0;
+        border: 0;
+        background-color: aqua;
+        margin-bottom: 20px;
+    }
+
+    #navmenu_btn_self img {
+        display: flex;
+        align-items: start;
+    }
+
+    .nav-item {
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
 }
