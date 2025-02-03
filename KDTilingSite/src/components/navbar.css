@@ -6,6 +6,12 @@
     width: 100%;
 }
 
+nav button:focus,
+nav button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 @media (max-width: 768px) { 
 
     #navmenu_btn_self {

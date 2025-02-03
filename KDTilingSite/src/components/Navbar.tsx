@@ -1,11 +1,14 @@
 import React from 'react'
 import './navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-sm mb-4 p-0">
         <div className="navbody container-fluid align-items-center">
-            <img src="/src/assets/home.svg" alt="Homepage button" className="ms-3"/>
+            <Link to='/'>
+                <img src="/src/assets/home.svg" alt="Homepage button" className="ms-3"/>
+            </Link>
             <button
                 className="navbar-toggler position-absolute end-0 me-3"
                 type="button"
