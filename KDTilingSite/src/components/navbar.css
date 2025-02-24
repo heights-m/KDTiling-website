@@ -17,6 +17,13 @@ nav button:active {
     width: 30vw;
 }
 
+
+@media (max-width: 750px) {
+    .home-logo {
+        width: 18vw;
+    }
+}
+
 /* small screen */
 @media (max-width: 575px) { 
 
@@ -68,7 +75,7 @@ nav button:active {
     }
 
     .nav-item {
-        margin: 0 2vw;
+        margin: 0 1.2vw;
         height: 100%;
     }
 
