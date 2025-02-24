@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-sm mb-4 p-0">
         <div className="navbody container-fluid align-items-center justify-content-center">
             <Link to='/'>
-                <img src="/src/assets/home.svg" alt="Homepage button" className="ms-3"/>
+                <img src="/src/assets/KD_logo-full.jpg" alt="Homepage button" className="home-logo ms-3"/>
             </Link>
             <button
                 className="navbar-toggler position-absolute end-0 me-3"
@@ -19,7 +19,7 @@ function Navbar() {
             >
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="offcanvas offcanvas-end navitems" tabIndex={-1} id="navbarContent" aria-labelledby='navbarContentLabel'>
+            <div className="offcanvas offcanvas-end navitems h-100" tabIndex={-1} id="navbarContent" aria-labelledby='navbarContentLabel'>
                 <button
                     className="navbar-toggler w-100 mb-4"
                     id='navmenu_btn_self'
@@ -38,9 +38,9 @@ function Navbar() {
                     <li className="nav-item">
                         <a href="#">ABOUT</a>
                     </li>
-                    <li className="nav-item dropdown">
+                    <li className="nav-item dropdown-center services-dd">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            SERVICES
                         </a>
                         <ul className="dropdown-menu">
                             <li><a className="dropdown-item" href="#">Action</a></li>
@@ -48,6 +48,7 @@ function Navbar() {
                             <li><a className="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
+                    <li className="nav-item">PROJECTS</li>
                     <li className="nav-item">
                         QUOTE
                     </li>
