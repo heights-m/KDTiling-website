@@ -1,4 +1,5 @@
 .img-container {
+    position: relative;
     background-color: plum;
     width: 50%;
 }
@@ -9,6 +10,21 @@
 
 .vsplit-txt {
     padding: 20px;
+}
+
+.img-back-arrow {
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    left: 0;
+    margin-left: 5px;
+}
+
+.img-next-arrow {
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    right: 0;
 }
 
 .services {

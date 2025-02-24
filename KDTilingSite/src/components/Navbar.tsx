@@ -33,19 +33,21 @@ function Navbar() {
                 </button>
                 <ul className="navbar-nav flex align-items-center">
                     <li className="nav-item">
-                        <a href="#">HOME</a>
+                        <Link to='/'>HOME</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#">ABOUT</a>
+                        <Link to='/about'> ABOUT</Link>
                     </li>
                     <li className="nav-item dropdown-center services-dd">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             SERVICES
                         </a>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Action</a></li>
-                            <li><a className="dropdown-item" href="#">Another action</a></li>
-                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            <li><a className="dropdown-item" href="#">Bathroom Tiling</a></li>
+                            <li><a className="dropdown-item" href="#">Commercial Tiling</a></li>
+                            <li><a className="dropdown-item" href="#">Residential Tiling</a></li>
+                            <li><a className="dropdown-item" href="#">Tiling Renovation</a></li>
+                            <li><a className="dropdown-item" href="#">Wall And Floor Tiling</a></li>
                         </ul>
                     </li>
                     <li className="nav-item">PROJECTS</li>
