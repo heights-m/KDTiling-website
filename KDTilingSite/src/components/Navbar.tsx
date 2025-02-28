@@ -1,10 +1,10 @@
 import React from 'react'
 import './navbar.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-sm mb-4 p-0">
+    <nav className="navbar navbar-expand-sm p-0">
         <div className="navbody container-fluid align-items-center justify-content-center">
             <Link to='/'>
                 <img src="/src/assets/KD_logo-full.jpg" alt="Homepage button" className="home-logo ms-3"/>
@@ -33,10 +33,10 @@ function Navbar() {
                 </button>
                 <ul className="navbar-nav flex align-items-center">
                     <li className="nav-item">
-                        <Link to='/'>HOME</Link>
+                        <NavLink to='/' className={({ isActive }) => isActive ? "nav-link active-link" : "nav-link"}>HOME</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to='/about'> ABOUT</Link>
+                        <NavLink to='/about' className={({ isActive }) => isActive ? "nav-link active-link" : "nav-link"}> ABOUT</NavLink>
                     </li>
                     <li className="nav-item dropdown-center services-dd">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

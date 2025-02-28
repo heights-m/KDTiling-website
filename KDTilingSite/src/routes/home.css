@@ -1,14 +1,24 @@
 .img-container {
     position: relative;
-    width: 50%;
-}
-
-.vsplit-box {
-    height: 50vh;
+    background-color: plum;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 7 / 4;
+    overflow: hidden;
 }
 
 .vsplit-txt {
-    padding: 20px;
+    height: 60vh;
+    z-index: 20;
+    position: absolute;
+
+}
+
+.vsplit-txt div {
+    background-color: rgba(255, 255, 255, 0.568);
+    height: 100%;
+    width: 100%;
+    padding: 45px 55px;
 }
 
 .img-back-arrow {
@@ -16,7 +26,7 @@
     z-index: 10;
     top: 45%;
     left: 0;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 .img-next-arrow {
@@ -24,9 +34,25 @@
     z-index: 10;
     top: 45%;
     right: 0;
+    margin-right: 20px;
+}
+
+.vsplit-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.f-tomorrow {
+    font-family: 'Tomorrow', serif;
 }
 
 .services {
     background-color: aquamarine;
     height: 45vh;
+}
+
+.services h2 {
+    font-weight: 700;
+    font-size: 55px;
+    margin-left: 30px;
 }
