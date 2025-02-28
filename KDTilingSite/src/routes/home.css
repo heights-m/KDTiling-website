@@ -46,8 +46,11 @@
     font-family: 'Tomorrow', serif;
 }
 
+.f-kdam {
+    font-family: 'Kdam Thmor Pro', serif;
+}
+
 .services {
-    background-color: aquamarine;
     height: 45vh;
 }
 
@@ -55,4 +58,53 @@
     font-weight: 700;
     font-size: 55px;
     margin-left: 30px;
+}
+
+.services-container {
+    padding: 50px 60px;
+}
+
+.services-card {
+    width: 25vw;
+    min-width: 200px;
+    background-color: white;
+    text-align: center;
+    margin: 0 25px 35px 0;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.services-card:hover{
+    margin-top: -10px;
+}
+
+.services-card:hover h3{
+    color: rgb(0, 0, 161);
+}
+
+.services-card h3 {
+    font-family: 'Kdam Thmor Pro', serif;
+    margin: 25px 0px;
+}
+
+.serv-card-img-container {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+}
+
+.serv-card-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+#bold-ad-div {
+    background-color: rgb(2, 0, 107);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#bold-ad {
+    color: white;
 }

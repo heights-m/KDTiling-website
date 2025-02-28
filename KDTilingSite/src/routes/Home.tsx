@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './home.css'
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -38,9 +39,47 @@ function Home() {
           <img className='vsplit-img' src={imgSlideArray[imgSlideIndex]} alt="" />
         </div>
 
-        <div className='services'>
-          <h2 className='f-tomorrow mt-4'>OUR SERVICES</h2>
-          div.d-flex.service
+        <div id="bold-ad-div">
+          <h1 className="f-kdam" id='bold-ad'>
+            AT KD TILING, OUR CUSTOMER'S SATISFACTION IS OUR PRIORITY
+          </h1>
+        </div>
+
+        <div className='services h-auto'>
+          <h2 className='f-tomorrow mt-5 ms-5'>OUR SERVICES</h2>
+          <div className="d-flex services-container justify-content-center container-fluid flex-wrap">
+            <Link className='services-card' to='/'>
+                <div className="serv-card-img-container">
+                  <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+                </div>
+                <h3>Bathroom Tiling</h3>
+            </Link>
+            <div className="services-card">
+              <div className="serv-card-img-container">
+                <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+              </div>
+              <h3>Commercial Tiling</h3>
+            </div>
+            <div className="services-card">
+              <div className="serv-card-img-container">
+                <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+              </div>
+              <h3>Residential Tiling</h3>
+            </div>
+            <div className="services-card">
+              <div className="serv-card-img-container">
+                <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+              </div>
+              <h3>Tiling Renovation</h3>
+            </div>
+            <div className="services-card">
+              <div className="serv-card-img-container">
+                <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+              </div>
+              <h3>Wall and Floor Tiling</h3>
+            </div>
+          </div>
+          
         </div>
         <hr />
 
