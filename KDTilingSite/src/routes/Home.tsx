@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './home.css'
 
 function Home() {
@@ -39,7 +39,8 @@ function Home() {
         </div>
 
         <div className='services'>
-          <h2 className='f-tomorrow mt-4 bold'>OUR SERVICES</h2>
+          <h2 className='f-tomorrow mt-4'>OUR SERVICES</h2>
+          div.d-flex.service
         </div>
         <hr />
 
