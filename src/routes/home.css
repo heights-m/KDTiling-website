@@ -108,3 +108,14 @@
 #bold-ad {
     color: white;
 }
+
+#promo-head {
+    text-align: center;
+    padding: 3vw 30px;
+    background-color: rgb(51, 49, 49);
+}
+
+#promo-head h1 {
+    color: white;
+    margin-bottom: 0;
+}

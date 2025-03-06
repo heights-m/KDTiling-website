@@ -81,7 +81,12 @@ function Home() {
           </div>
           
         </div>
-        <hr />
+        
+        <div id="promo-container">
+          <div id="promo-head">
+            <h1 className='f-kdam'> CENTRAL COAST AREA'S EXPERIENCED INDUSTRY PROFESSIONALS</h1>
+          </div>
+        </div>
 
         <h2 className='mt-4'>About</h2>
         <div className='services'></div>
