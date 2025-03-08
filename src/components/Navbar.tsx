@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-sm p-0">
         <div className="navbody container-fluid align-items-center justify-content-center">
             <Link to='/'>
-                <img src="/src/assets/KD_logo-full.jpg" alt="Homepage button" className="home-logo ms-3"/>
+                <img src="https://github.com/heights-m/KDTiling-website/blob/main/src/assets/KD_logo-full.jpg?raw=true" alt="Homepage button" className="home-logo ms-3"/>
             </Link>
             <button
                 className="navbar-toggler position-absolute end-0 me-3"
@@ -27,7 +27,7 @@ function Navbar() {
                     aria-label="Close navigation"
                 >
                     <div className="py-3">
-                        <img src="\src\assets\close_24dp_00000_FILL0_wght400_GRAD0_opsz24.svg" alt="close navbar button" className=''/>
+                        <img src="https://raw.githubusercontent.com/heights-m/KDTiling-website/31e99ab964a7ccf8cd4db4011a4e6eb5cd9ef059/src/assets/close_24dp_00000_FILL0_wght400_GRAD0_opsz24.svg" alt="close navbar button" className=''/>
                     </div>
                 </button>
                 <ul className="navbar-nav flex align-items-center">

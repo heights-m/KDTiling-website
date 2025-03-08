@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
 
-  const imgSlideArray = ['/src/assets/IMG_3740.JPG', '/src/assets/IMG_20210503_124244 (1).jpg', '/src/assets/Temp_1696741958464.jpg'];
+  const imgSlideArray = ['https://github.com/heights-m/KDTiling-website/blob/main/src/assets/IMG_3740.JPG?raw=true', 'https://github.com/heights-m/KDTiling-website/blob/main/src/assets/IMG_20210503_124244%20(1).jpg?raw=true', 'https://github.com/heights-m/KDTiling-website/blob/main/src/assets/Temp_1696741958464.jpg?raw=true'];
   const [imgSlideIndex, setImgSlideIndex] = useState(0);
   const imgArrLimit = 2;
 
@@ -50,31 +50,31 @@ function Home() {
           <div className="d-flex services-container justify-content-center container-fluid flex-wrap">
             <Link className='services-card' to='/'>
                 <div className="serv-card-img-container">
-                  <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+                  <img className='serv-card-img' src={imgSlideArray[0]} alt="" />
                 </div>
                 <h3>Bathroom Tiling</h3>
             </Link>
             <div className="services-card">
               <div className="serv-card-img-container">
-                <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+                <img className='serv-card-img' src={imgSlideArray[0]} alt="" />
               </div>
               <h3>Commercial Tiling</h3>
             </div>
             <div className="services-card">
               <div className="serv-card-img-container">
-                <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+                <img className='serv-card-img' src={imgSlideArray[0]} alt="" />
               </div>
               <h3>Residential Tiling</h3>
             </div>
             <div className="services-card">
               <div className="serv-card-img-container">
-                <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+                <img className='serv-card-img' src={imgSlideArray[0]} alt="" />
               </div>
               <h3>Tiling Renovation</h3>
             </div>
             <div className="services-card">
               <div className="serv-card-img-container">
-                <img className='serv-card-img' src="/src/assets/IMG_3740.JPG" alt="" />
+                <img className='serv-card-img' src={imgSlideArray[0]} alt="" />
               </div>
               <h3>Wall and Floor Tiling</h3>
             </div>
