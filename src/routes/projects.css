@@ -6,7 +6,7 @@
 }
 
 #proj-head {
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(36, 35, 35);
 }
 
 .t-left {
@@ -17,4 +17,57 @@
 .t-right {
     rotate: 270deg;
     filter: saturate(200%);
+}
+
+#projects-container {
+    margin: 2vw 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projcard {
+    width: 25vw;
+    min-width: 270px;
+    margin: 2vw 3vw;
+}
+
+.projcard:hover .projcard-arrowbox {
+    background-color: rgb(0, 0, 161);
+}
+
+.projcard-img-cont {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5/3;
+    overflow: hidden;
+}
+
+.projcard-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.projcard-text {
+    background-color: white;
+    width: 75%;
+    height: fit-content;
+    box-shadow: 7px 9px 0.5px rgba(146, 146, 146, 0.801);
+    padding: 28px 25px;
+}
+
+.projcard-txt-t {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.projcard-arrowbox {
+    position: relative;
+    background-color: rgb(36, 35, 35);
+    width: 4.7vw;
+    max-width: 69px;
+    height: 4.7vw;
+    max-height: 69px;
+    margin-top: 2.5%;
+    margin-left: 1.3vw;
 }
