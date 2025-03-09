@@ -30,9 +30,9 @@ function Home() {
           <svg onClick={slideImgPrev} className='img-back-arrow' xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960"  fill="#FFFFFF"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
           <svg onClick={slideImgNext} className='img-next-arrow' xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960"  fill="#FFFFFF"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
 
-          <div className='vsplit-txt top-50 start-50 translate-middle'>
-            <div>
-              <h2 className='f-tomorrow mb-4'>Professional Tiling Service</h2>
+          <div className='vsplit-txt bottom-0 start-50 translate-middle-x'>
+            <div id='whitebox' className=''>
+              <h2 className='f-tomorrow mb-4 mt-3'>Professional Tiling Service</h2>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut id, iure harum aliquid officiis sunt alias distinctio dicta fugit facere, in similique eligendi itaque porro eius libero quaerat deleniti! Quae!</p>
             </div>
           </div>          

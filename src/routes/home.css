@@ -8,18 +8,21 @@
 }
 
 .vsplit-txt {
-    height: 60vh;
+    height: 25vh;
+    width: 100%;
+    text-align: center;
     z-index: 20;
     position: absolute;
 
 }
 
 .vsplit-txt div {
-    background-color: rgba(255, 255, 255, 0.568);
+    background-color: rgba(255, 255, 255, 0.438);
     height: 100%;
     width: 100%;
-    padding: 45px 55px;
+    padding: 30px 55px;
 }
+
 
 .img-back-arrow {
     position: absolute;
