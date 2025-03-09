@@ -49,7 +49,9 @@ function Navbar() {
                             <li><a className="dropdown-item" href="#">Wall And Floor Tiling</a></li>
                         </ul>
                     </li>
-                    <li className="nav-item">PROJECTS</li>
+                    <li className="nav-item">
+                        <NavLink to='/projects' className={({ isActive }) => isActive ? "nav-link active-link" : "nav-link"}>PROJECTS</NavLink>
+                    </li>
                     <li className="nav-item">
                         QUOTE
                     </li>

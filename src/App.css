@@ -1,3 +1,22 @@
 #root {
     background-color: rgb(229, 236, 245);
 }
+
+#footer-logo {
+    width: 40vw;
+    max-width: 400px;
+}
+
+.f-tomorrow {
+    font-family: 'Tomorrow', serif;
+}
+
+.f-kdam {
+    font-family: 'Kdam Thmor Pro', serif;
+}
+
+.three-sq {
+    max-height: 100px;
+    height: 7vw;
+    min-height: 50px;
+}
