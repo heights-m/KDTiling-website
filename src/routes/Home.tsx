@@ -86,6 +86,27 @@ function Home() {
           <div id="promo-head">
             <h1 className='f-kdam'> CENTRAL COAST AREA'S EXPERIENCED INDUSTRY PROFESSIONALS</h1>
           </div>
+          <div className="promo-card">
+            <img className='three-sq' src="https://github.com/heights-m/KDTiling-website/blob/main/src/assets/three_square.png?raw=true" alt="" />
+            <div className='promo-c-text'>
+              <h2 className="f-tomorrow promo-c-title">OUR GUARANTEE</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum sunt dignissimos, eos suscipit non ipsam recusandae nesciunt, nam minima deleniti quisquam quia iste? Esse, quas. Laborum eveniet libero dicta ipsam?</p>
+            </div>
+          </div>
+          <div className="promo-card-r">
+            <div className='promo-c-text'>
+              <h2 className="f-tomorrow promo-c-title">OVER 17 YEARS OF SERVICE</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum sunt dignissimos, eos suscipit non ipsam recusandae nesciunt, nam minima deleniti quisquam quia iste? Esse, quas. Laborum eveniet libero dicta ipsam?</p>
+            </div>
+            <img className='three-sq' src="https://github.com/heights-m/KDTiling-website/blob/main/src/assets/three_square.png?raw=true" alt="" />
+            </div>
+          <div className="promo-card">
+            <img className='three-sq' src="https://github.com/heights-m/KDTiling-website/blob/main/src/assets/three_square.png?raw=true" alt="" />
+            <div className='promo-c-text'>
+              <h2 className="f-tomorrow promo-c-title">WHAT SETS US APART</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum sunt dignissimos, eos suscipit non ipsam recusandae nesciunt, nam minima deleniti quisquam quia iste? Esse, quas. Laborum eveniet libero dicta ipsam?</p>
+            </div>
+          </div>
         </div>
 
         <h2 className='mt-4'>About</h2>
