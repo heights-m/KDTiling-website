@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './projects.css'
 import ProjCard from '../components/ProjCard'
 

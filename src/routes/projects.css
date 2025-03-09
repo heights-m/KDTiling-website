@@ -54,6 +54,7 @@
     height: fit-content;
     box-shadow: 7px 9px 0.5px rgba(146, 146, 146, 0.801);
     padding: 28px 25px;
+    margin-top: 5px;
 }
 
 .projcard-txt-t {
@@ -68,6 +69,6 @@
     max-width: 69px;
     height: 4.7vw;
     max-height: 69px;
-    margin-top: 2.5%;
+    margin-top: 3%;
     margin-left: 1.3vw;
 }
