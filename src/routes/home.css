@@ -149,6 +149,7 @@
 .three-sq {
     max-height: 100px;
     height: 7vw;
+    min-height: 50px;
 }
 
 .promo-c-text {
