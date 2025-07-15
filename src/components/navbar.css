@@ -84,7 +84,7 @@ a {
         height: 100%;
     }
 
-    .nav-item:hover {
+    .nav-link:hover {
         border-bottom: 6px solid blue;
     }
 
@@ -104,5 +104,7 @@ a {
 
     .nav-link {
         color: black;
+        font-size: 1.6vw;
     }
+
 }
